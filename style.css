@@ -39,6 +39,11 @@ nav a {
     color: white;
 }
 
+nav a:hover {
+    color: #8aaef5;
+    text-decoration: none;
+}
+
 .links {
     display: flex;
     flex-direction: row;
@@ -88,6 +93,7 @@ a {
 }
 
 a:hover {
+    color: #619cfa;
     text-decoration: underline;
 }
 
@@ -108,6 +114,7 @@ a:hover {
 .join:hover, .button:hover {
     text-decoration: none;
     background-color: #619cfa;
+    color: black;
 }
 
 .button * {
