@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /404.html
+
+Sitemap: https://bbsshack.club/sitemap.xml
