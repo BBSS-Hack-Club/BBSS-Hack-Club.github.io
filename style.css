@@ -17,6 +17,7 @@ main {
     align-items: center;
     flex: 1;
     min-height: 100dvh;
+    overflow-x: hidden;
 }
 
 nav {
@@ -72,7 +73,11 @@ nav a:hover {
 
 .intro h1 {
     font-size: 3em;
-    
+}
+
+.intro img {
+    width: 500px;
+    height: 500px;
 }
 
 footer {
@@ -160,6 +165,38 @@ svg {
     fill: black;
 }
 
+#mobile-navbar {
+    z-index: 900;
+    position: absolute;
+    top: 70px;
+    background-color: #242638;
+    width: 100dvw;
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+li a {
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.images * {
+    border: none;
+}
+
+.competitions p {
+    max-width: 50dvw;
+}
+
 @keyframes logo-bounce {
     0%, 100% {
         transform: translateY(0);
@@ -185,8 +222,8 @@ svg {
     background-color: #619cfa;
 }
 
-@media (max-width: 600px) {
-    .intro, .our-people {
+@media (max-width: 650px) {
+    .intro, .our-people, .our-projects, .images {
         display: flex;
         flex-direction: column;
         padding: 20px;
@@ -194,11 +231,19 @@ svg {
     }
     
     .intro img {
-        height: 300px;
-        width: 300px;
+        height: 80dvw;
+        width: 80dvw;
     }
 
     .intro h1 {
-        font-size: 3em;
+        font-size: 2em;
+    }
+
+    main p {
+        font-size: 16px;
+    }
+
+    main h2 {
+        font-size: 20px;
     }
 }
