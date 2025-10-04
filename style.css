@@ -246,4 +246,8 @@ ul {
     main h2 {
         font-size: 20px;
     }
+
+    .competitions p {
+        max-width: 80dvw;
+    }
 }
