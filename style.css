@@ -193,11 +193,11 @@ ul {
     border: none;
 }
 
-.competitions p {
+.text p {
     max-width: 50dvw;
 }
 
-.competitions img {
+.text img {
     border-radius: 10px;
 }
 
@@ -251,7 +251,7 @@ ul {
         font-size: 20px;
     }
 
-    .competitions p {
+    .text p {
         max-width: 80dvw;
     }
 }
