@@ -197,6 +197,10 @@ ul {
     max-width: 50dvw;
 }
 
+.competitions img {
+    border-radius: 10px;
+}
+
 @keyframes logo-bounce {
     0%, 100% {
         transform: translateY(0);
