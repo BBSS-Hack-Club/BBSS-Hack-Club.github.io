@@ -201,6 +201,10 @@ ul {
     border-radius: 10px;
 }
 
+#content {
+    text-align: center;
+}
+
 @keyframes logo-bounce {
     0%, 100% {
         transform: translateY(0);
