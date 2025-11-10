@@ -1,5 +1,5 @@
 var time = 3;
-setInterval(update(), 1000);
+setInterval(update, 1000);
 
 function update() {
     time = time - 1;
