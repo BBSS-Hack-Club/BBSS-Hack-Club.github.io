@@ -114,6 +114,7 @@ a:hover {
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
+    font-family: 'system-ui', sans-serif;
 }
 
 .join:hover, .button:hover {
