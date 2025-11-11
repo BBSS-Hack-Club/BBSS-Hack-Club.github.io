@@ -102,7 +102,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.join, .button {
+.join, .button, .join-mobile {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -117,7 +117,12 @@ a:hover {
     font-family: 'system-ui', sans-serif;
 }
 
-.join:hover, .button:hover {
+.join-mobile {
+    width: fit-content;
+    margin-top: 5px;
+}
+
+.join:hover, .button:hover, .join-mobile:hover {
     text-decoration: none;
     background-color: #619cfa;
     color: black;

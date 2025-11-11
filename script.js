@@ -39,7 +39,8 @@ function navigationButton() {
         <li><a href="people.html">People</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="competitions.html">Competitions</a></li>
-        <li><a href="https://dashboard.hackclub.com/club-dashboard/257" target="_blank">Hack Club Dashboard</a></li>`;
+        <li><a href="https://dashboard.hackclub.com/club-dashboard/257" target="_blank">Hack Club Dashboard</a></li>
+        <li><a href="join.html" class="join-mobile">Join Us!</a></li>`;
         document.getElementById("mobile-navbar").appendChild(navigation);
     } else if (open == true) {
         open = false;
