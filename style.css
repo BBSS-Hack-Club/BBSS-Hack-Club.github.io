@@ -211,6 +211,12 @@ ul {
     text-align: center;
 }
 
+.redirect-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 @keyframes logo-bounce {
     0%, 100% {
         transform: translateY(0);
@@ -251,6 +257,11 @@ ul {
 
     .intro h1 {
         font-size: 2em;
+    }
+
+    .redirect-button {
+        flex-direction: column;
+        text-align: center;
     }
 
     main p {
