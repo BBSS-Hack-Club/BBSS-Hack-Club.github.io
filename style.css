@@ -209,10 +209,6 @@ ul {
     text-decoration: underline;
 }
 
-.text h2 {
-    border-bottom: 2px solid white;
-}
-
 .text ul {
     list-style: disc;
     max-width: 50dvw;
