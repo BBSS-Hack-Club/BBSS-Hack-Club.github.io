@@ -203,6 +203,25 @@ ul {
     max-width: 50dvw;
 }
 
+.text a {
+    font-size: medium;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.text h2 {
+    border-bottom: 2px solid white;
+}
+
+.text ul {
+    list-style: disc;
+    max-width: 50dvw;
+}
+
+.text li {
+    padding-bottom: 10px;
+}
+
 .text img {
     border-radius: 10px;
 }
